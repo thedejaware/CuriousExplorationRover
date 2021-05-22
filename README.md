@@ -1,7 +1,7 @@
 # Curious Exploration Rover
 Curious Exploration Rover on Mars
 
-Understanding the Input Parameters for the first Rover;
+### Understanding the Input Parameters for the first Rover;
 
 **FIRST INPUT:** 5 5 => X-axis and Y-axis of Plateau
 
@@ -33,7 +33,7 @@ The following image shows the position of first rover when it has finished movin
 
 ![enter image description here](https://drive.google.com/uc?export=download&id=1k4lIW3tk-Eo0iFeX2nkgP6NT0xl5jwMZ)
 
-Input Parameters for the second Rover;
+### Input Parameters for the second Rover;
 3 3 E
 MMRMMRMRRM
 
