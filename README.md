@@ -39,6 +39,8 @@ The following image shows the position of first rover when it has finished movin
 
 MMRMMRMRRM
 
+When we execute the project with given inputs, final location or position of our second curious rover will be **"5 1 E"**
+
 The following image shows the position of second rover when it has finished moving.
 
 ![enter image description here](https://drive.google.com/uc?export=download&id=11sAglmpgrnb6TAO_EYNraiFD9ONnoA8S)
