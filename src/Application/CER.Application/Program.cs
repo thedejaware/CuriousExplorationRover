@@ -15,7 +15,7 @@ namespace CER.Application
                 ProcessWithObject();
 
                 // Getting values from Console
-                // ProcessFromConsole();
+                //ProcessFromConsole();
 
             }
             catch (Exception exc)
