@@ -1,4 +1,4 @@
-# Curious Exploration Rover
+# Code Review: Mars Rover (Curious Exploration Rover)
 Curious Exploration Rover on Mars
 
 ### Understanding the Input Parameters for the first Rover;
