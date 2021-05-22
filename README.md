@@ -3,7 +3,7 @@ Curious Exploration Rover on Mars
 
 Understanding the Input Parameters for the first Rover;
 
-**First input:** 5 5 => X-axis and Y-axis of Plateau
+**FIRST INPUT:** 5 5 => X-axis and Y-axis of Plateau
 
 Following image shows example of Plateau with boundaries of (5,5)
 
@@ -11,7 +11,7 @@ Following image shows example of Plateau with boundaries of (5,5)
 
 Our curious rover will move on this plateau with given positions. 
 
-**Second input:** 1 2 N => Starting positions of our rover.
+**SECOND INPUT:** 1 2 N => Starting positions of our rover.
 - 1: X coordinate of our curious rover
 - 2: Y coordinate of our curious rover
 - N: Rover is facing or looking the North.
@@ -20,7 +20,7 @@ Our curious rover will move on this plateau with given positions.
 
 ![enter image description here](https://drive.google.com/uc?export=download&id=1Gp8hpXfnqof3ZpjeV2owa_i7BrpYj-ib)
 
-**Third input: ** LMLMLMLMM => Letters sent by NASA to control the rover:
+**THIRD INPUT: ** LMLMLMLMM => Letters sent by NASA to control the rover:
 - L: Rotates the rover 90 degrees left
 - R: Rotates the rover 90 degrees right
 - M: Move forward one grid point.
