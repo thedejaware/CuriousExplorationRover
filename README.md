@@ -1,6 +1,19 @@
 # Code Review: Mars Rover (Curious Exploration Rover)
 Curious Exploration Rover on Mars
 
+Soluion consists of two projects. One is Console Application Project and the other one is Test Project.
+
+To run the project, you will need the following tools;
+- Visual Studio 2019
+- .Net 5.0 or later
+
+Interface definitions have been created under the Contracts folder. And Implementation or Concrete classes have been created under the Implementations folder.
+
+** In Program.cs file, there are two methods to run;
+1. ProcessWithObject() => Plateau, Position and Letter values are hard-coded in this method. You can directly call to see the expexted outputs
+1. ProcessFromConsole() => You can set Plateau, Position and Letter values from the Console. When you execute the method, it will ask you for the input parameters.
+
+
 ### Understanding the Input Parameters for the first Rover;
 
 **FIRST INPUT:** 5 5 => X-axis and Y-axis of Plateau
