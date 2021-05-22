@@ -30,13 +30,8 @@ namespace CER.Application.Implementations
             }
         }
 
-        private void ProcessLetter(char letter)
+        public void ProcessLetter(char letter)
         {
-            // Check whether if position-x and position-y are in boundary of plateau
-            if (Position.X < 0 || Position.X > Plateau.PointX || Position.Y < 0 || Position.Y > Plateau.PointY)
-            {
-                throw new Exception($"Position X and Position Y should be in boundaries of ({Plateau.PointX},{Plateau.PointY})");
-            }
 
             switch (letter)
             {
@@ -50,12 +45,22 @@ namespace CER.Application.Implementations
                     MoveForward();
                     break;
                 default:
-                    throw new ArgumentException($"Invalid letter from NASA {letter}.");
+                    throw new ArgumentException($"Invalid letter sent by NASA: {letter}");
             }
 
-           
+            // Checking boundary of plateau with given positions
+            CheckBoundary();
 
 
+        }
+
+        public void CheckBoundary()
+        {
+            // Check whether if position-x and position-y are in boundary of plateau
+            if (Position.X < 0 || Position.X > Plateau.PointX || Position.Y < 0 || Position.Y > Plateau.PointY)
+            {
+                throw new ArgumentException($"Position X and Position Y should be in boundaries of ({Plateau.PointX},{Plateau.PointY})");
+            }
         }
 
         public void MoveForward()

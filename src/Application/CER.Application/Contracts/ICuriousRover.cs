@@ -14,6 +14,7 @@ namespace CER.Application.Contracts
         Directions Facing { get; set; }
 
         void StartMoving(string letters);
+        void CheckBoundary();
         string GetCurrentPosition();
     }
 }
