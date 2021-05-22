@@ -5,7 +5,9 @@ Understanding the Input Parameters for the first Rover;
 
 **FIRST INPUT:** 5 5 => X-axis and Y-axis of Plateau
 
-Following image shows example of Plateau with boundaries of (5,5)
+Following image shows the Plateau which is divided up into a grid. 
+X-axis of 5
+Y-axis of 5 
 
 ![enter image description here](https://drive.google.com/uc?export=download&id=1n8kRgjZGxfPgzbu58ZZKh3Cn3UdgWQzR)
 
