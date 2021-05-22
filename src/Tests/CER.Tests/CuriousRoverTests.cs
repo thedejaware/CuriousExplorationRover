@@ -92,7 +92,6 @@ namespace CER.Tests
                 rover.ProcessLetter(letter);
             }
 
-            // Assert
         }
 
         [TestMethod]
@@ -116,7 +115,6 @@ namespace CER.Tests
             // Act
             rover.CheckBoundary();
 
-            // Assert
         }
 
     }
