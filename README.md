@@ -10,7 +10,7 @@ To run the project, you will need the following tools;
 Interface definitions have been created under the Contracts folder. And Implementation or Concrete classes have been created under the Implementations folder.
 
 ** In Program.cs file, there are optionally two methods to run;
-1. ProcessWithObject() => Plateau, Position and Letter values are hard-coded in this method. You can directly call to see the expexted outputs
+1. ProcessWithObject() => Plateau, Position and Letter values are hard-coded in this method. You can directly call to see the expected outputs
 1. ProcessFromConsole() => You can set Plateau, Position and Letter values from the Console. When you execute the method, it will ask you for the input parameters.
 
 
