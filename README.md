@@ -1,7 +1,7 @@
 # Code Review: Mars Rover (Curious Exploration Rover)
 Curious Exploration Rover on Mars
 
-Soluion consists of two projects. One is Console Application Project and the other one is Test Project.
+Solution consists of two projects. One is Console Application Project and the other one is Test Project.
 
 To run the project, you will need the following tools;
 - Visual Studio 2019
